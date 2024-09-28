@@ -2,6 +2,10 @@
     <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=25&pause=1000&color=FF00F6&center=true&vCenter=true&width=435&lines=%E2%AB%B7+Welcome+to+my+profile!+%E2%AB%B8" alt="Typing SVG" /></a>
 </div>
 
+<img align="center" alt="" src="./src/header.gif">
+
+##
+
 <div>
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=humphreysjulio&show_icons=true&bg_color=000&title_color=FF00F6&text_color=FFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly" alt="Anurag's GitHub stats">
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=humphreysjulio&layout=compact&bg_color=000&title_color=FF00F6&text_color=FFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly" alt="Top Langs">
