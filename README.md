@@ -13,9 +13,8 @@
 <img align="right" alt="" height="190px" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXRjMnlmaGZzcjlwOW5leTEyNXptOGFodnRhbzF0OWpubHVlNm9vZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JqmupuTVZYaQX5s094/giphy.webp">
 
 <h3 align="left">Connect with me!</h3>
-
-<a href="https://www.linkedin.com/in/humphreysjulio" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-<a href = "mailto:juliochreis@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/humphreysjulio" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF" target="_blank"></a> 
+<a href = "mailto:juliochreis@gmail.com"><img src="https://img.shields.io/badge/-Gmail-000?style=for-the-badge&logo=gmail&logoColor=FF00F6&color:FFF" target="_blank"></a>
 
 <h3 align="left">My Stack ~</h3>
 
