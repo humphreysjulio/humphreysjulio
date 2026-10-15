@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="46" viewBox="0 0 830 46" role="img" aria-label="&gt; ./stats --user humphreysjulio">
+<style>
+  text { font-family: 'Courier New', Consolas, monospace; }
+  .l { font-size: 18px; font-weight: bold; fill: #00FF41; filter: url(#glow); }
+  .i { font-size: 12px; fill: #007A1F; text-anchor: end; }
+  .pulse { animation: run 3.2s cubic-bezier(.6, 0, .4, 1) infinite; }
+  .cur { animation: blink 1s steps(1) infinite; }
+  @keyframes run { from { transform: translateX(-120px); } to { transform: translateX(402px); } }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+<defs>
+  <filter id="glow" x="-10%" y="-50%" width="120%" height="200%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="pg" x1="0" x2="1">
+    <stop offset="0" stop-color="#00FF41" stop-opacity="0"/>
+    <stop offset="1" stop-color="#00FF41"/>
+  </linearGradient>
+  <clipPath id="ln"><rect x="378.8" y="0" width="392.0" height="46"/></clipPath>
+</defs>
+<path d="M12 10 V36 M12 10 H20 M12 36 H20" stroke="#00FF41" stroke-width="2" fill="none"/>
+<text x="30" y="29" class="l">&gt; ./stats --user humphreysjulio</text>
+<rect class="cur" x="366.8" y="16" width="3" height="17" fill="#00FF41"/>
+<path d="M378.8 23 H770.8" stroke="#00FF41" stroke-opacity=".25"/>
+<g clip-path="url(#ln)"><rect class="pulse" x="378.8" y="22" width="120" height="2" fill="url(#pg)"/></g>
+<circle cx="770.8" cy="23" r="2.5" fill="#00FF41"/>
+<text x="818" y="27" class="i">[0x03]</text>
+</svg>

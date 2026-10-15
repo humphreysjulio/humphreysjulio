@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="38" viewBox="0 0 800 38" role="img" aria-label="front-end/ — 3 módulos">
+<style>
+  text { font-family: 'Courier New', Consolas, monospace; white-space: pre; }
+  .t { font-size: 15px; fill: #007A1F; }
+  .n { font-size: 15px; font-weight: bold; fill: #00FF41; filter: url(#glow); }
+  .i { font-size: 12px; fill: #00A82B; }
+  .k { font-size: 11px; font-weight: bold; fill: #00FF41; letter-spacing: 2px; text-anchor: middle; }
+  .p { animation: p 2.4s ease-in-out 0.3s infinite; }
+  @keyframes p { 0%, 100% { stroke-opacity: .25; fill-opacity: .04; } 50% { stroke-opacity: .9; fill-opacity: .14; } }
+</style>
+<defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter></defs>
+<rect x=".5" y=".5" width="799" height="37" rx="7" fill="#050805" stroke="#00FF41" stroke-opacity=".3"/>
+<text x="16" y="24" class="t">├── </text>
+<text x="52.0" y="24" class="n">front-end/</text>
+<text x="158.0" y="23" class="i">3 módulos</text>
+<path d="M240.6 19 H680.0" stroke="#00FF41" stroke-opacity=".22" stroke-dasharray="2 5"/>
+<rect class="p" x="694" y="8" width="92" height="22" rx="5" fill="#00FF41" stroke="#00FF41"/>
+<text x="740.0" y="23" class="k">ABRIR ▾</text>
+</svg>

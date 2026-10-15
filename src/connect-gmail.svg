@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="264" height="104" viewBox="0 0 264 104" role="img" aria-label="gmail: juliochreis@gmail.com">
+<style>
+  text { font-family: 'Courier New', Consolas, monospace; white-space: pre; }
+  .n { fill: #E6FFE6; font-size: 17px; font-weight: bold; }
+  .h { fill: #00A82B; font-size: 11px; }
+  .port { fill: #007A1F; font-size: 10px; letter-spacing: 1px; text-anchor: end; }
+  .k { fill: #00FF41; font-size: 10px; font-weight: bold; letter-spacing: 2px; text-anchor: middle; }
+  .frame { animation: f 3s ease-in-out 0.5s infinite; }
+  .chip { animation: c 2s ease-in-out 0.5s infinite; }
+  .ring { animation: r 3s ease-out 0.5s infinite; transform-origin: 38px 46px; }
+  .scan { animation: s 3.5s linear 0.5s infinite; }
+  @keyframes f { 0%, 100% { stroke-opacity: .35; } 50% { stroke-opacity: .95; } }
+  @keyframes c { 0%, 100% { fill-opacity: .05; stroke-opacity: .35; } 50% { fill-opacity: .18; stroke-opacity: 1; } }
+  @keyframes r { 0% { transform: scale(.8); opacity: .8; } 100% { transform: scale(1.5); opacity: 0; } }
+  @keyframes s { from { transform: translateY(-30px); } to { transform: translateY(104px); } }
+</style>
+<defs>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="1.8" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#00FF41" stop-opacity=".08"/><stop offset="1" stop-color="#00FF41" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="sg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#00FF41" stop-opacity="0"/><stop offset="1" stop-color="#00FF41" stop-opacity=".10"/>
+  </linearGradient>
+  <clipPath id="cl"><rect x="1" y="1" width="262" height="102" rx="10"/></clipPath>
+</defs>
+<rect x=".5" y=".5" width="263" height="103" rx="10" fill="#050805"/>
+<rect x=".5" y=".5" width="263" height="103" rx="10" fill="url(#bg)"/>
+<rect class="frame" x=".5" y=".5" width="263" height="103" rx="10" fill="none" stroke="#00FF41"/>
+<path d="M8 20V8h12M244 8h12v12M8 84v12h12M244 96h12v-12" stroke="#00FF41" stroke-width="2" fill="none"/>
+<text x="240" y="22" class="port">PORT 0x02</text>
+<circle class="ring" cx="38" cy="46" r="24" fill="none" stroke="#00FF41" stroke-width="1.5"/>
+<circle cx="38" cy="46" r="24" fill="#00FF41" fill-opacity=".06" stroke="#00FF41" stroke-opacity=".4"/>
+<g filter="url(#glow)" transform="translate(25 33) scale(1.08)"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z" fill="#00FF41"/></g>
+<text x="74" y="44" class="n">gmail</text>
+<text x="74" y="62" class="h">juliochreis@gmail.com</text>
+<rect class="chip" x="152" y="72" width="96" height="20" rx="5" fill="#00FF41" stroke="#00FF41"/>
+<text x="200" y="86" class="k">CONECTAR ↗</text>
+<g clip-path="url(#cl)"><rect class="scan" width="264" height="30" fill="url(#sg)"/></g>
+</svg>

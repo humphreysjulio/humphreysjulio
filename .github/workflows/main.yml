@@ -11,7 +11,7 @@ on:
   # run on every push on the master branch
   push:
     branches:
-    - master
+    - main
     
   
 
@@ -31,8 +31,22 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
+            dist/github-contribution-grid-snake-matrix.svg?palette=github-dark&color_snake=#00ff41&color_dots=#0F2A12,#003b00,#006b1a,#00a82b,#00ff41
+
+      # generates the Matrix-styled stats card at dist/stats.svg
+      - uses: actions/checkout@v4
+        with:
+          path: repo
+
+      - name: generate stats.svg
+        run: python repo/.github/scripts/stats.py ${{ github.repository_owner }} dist/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # wraps the matrix snake in the profile's terminal window at dist/snake.svg
+      - name: frame snake.svg
+        run: python repo/.github/scripts/snake_frame.py dist/github-contribution-grid-snake-matrix.svg dist/snake.svg
+
       # push the content of <build_dir> to a branch
       # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
       - name: push github-contribution-grid-snake.svg to the output branch

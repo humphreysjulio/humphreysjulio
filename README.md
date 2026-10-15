@@ -1,45 +1,60 @@
 <div align="center">
-    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=900&size=25&pause=1000&color=FF00F6&center=true&vCenter=true&width=435&lines=%E2%AB%B7+Welcome+to+my+profile!+%E2%AB%B8" alt="Typing SVG" /></a>
+  <img src="./src/matrix-header.svg" width="100%" alt="Julio Humphreys — Sistemas de Informação">
 </div>
 
-<img align="center" alt="" src="./src/header.gif">
+<img src="./src/boot.svg" width="100%" alt="Boot sequence — Access granted. Welcome to my profile!">
 
-##
+<br>
 
-<p align="center"> Estudante de Sistemas de Informação na Faculdade Impacta Tecnologia. Estou sempre em busca de novas oportunidades para ampliar meus conhecimentos e enfrentar desafios na área de tecnologia. Sou movido pela curiosidade e pela vontade de aprender para a criação de soluções inovadoras.
+<img src="./src/terminal.svg" width="100%" alt="neofetch — Julio Humphreys. Cargo: Cyber Security. Local: Itaquera. Status: aberto a oportunidades. Curso: Sistemas de Informação na Faculdade Impacta Tecnologia (2023 — 2026). Stack: HTML, CSS, JavaScript, Python. Contato: github.com/humphreysjulio, linkedin.com/in/humphreysjulio, juliochreis@gmail.com. Si vis pacem, para bellum.">
 
-##
+<img src="./src/section-connect.svg" width="100%" alt="> ./connect.sh">
 
-<img align="right" alt="" height="190px" src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXRjMnlmaGZzcjlwOW5leTEyNXptOGFodnRhbzF0OWpubHVlNm9vZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JqmupuTVZYaQX5s094/giphy.webp">
+<p align="center">
+<a href="https://www.linkedin.com/in/humphreysjulio"><img src="./src/connect-linkedin.svg" width="32%" alt="LinkedIn — /in/humphreysjulio"></a>
+<a href="mailto:juliochreis@gmail.com"><img src="./src/connect-gmail.svg" width="32%" alt="Gmail — juliochreis@gmail.com"></a>
+<a href="https://github.com/humphreysjulio"><img src="./src/connect-github.svg" width="32%" alt="GitHub — @humphreysjulio"></a>
+</p>
 
-<h3 align="left">Connect with me!</h3>
-<a href="https://www.linkedin.com/in/humphreysjulio" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-000?style=for-the-badge&logo=linkedin&logoColor=FF00F6&color:FFF" target="_blank"></a> 
-<a href = "mailto:juliochreis@gmail.com"><img src="https://img.shields.io/badge/-Gmail-000?style=for-the-badge&logo=gmail&logoColor=FF00F6&color:FFF" target="_blank"></a>
+<img src="./src/section-stack.svg" width="100%" alt="> ls ./stack">
 
-<h3 align="left">My Stack ~</h3>
+<details>
+  <summary><picture><img src="./src/summary-stack.svg" width="96%" align="absmiddle" alt="Stack: HTML5, CSS3, JavaScript, Python, Cyber Security — clique para abrir o inventário"></picture></summary>
+  <br>
 
-<div align="left">
-  <img align="center" alt="Julio-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Julio-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="center" alt="Julio-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Julio-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
+  <details open>
+    <summary><picture><img src="./src/summary-status.svg" width="96%" align="absmiddle" alt="status/ · painel de progresso"></picture></summary>
+    <dl><dd><img src="./src/stack.svg" width="100%" alt="Stack: HTML5, CSS3, JavaScript, Python"></dd></dl>
+  </details>
+
+  <details>
+    <summary><picture><img src="./src/summary-frontend.svg" width="96%" align="absmiddle" alt="front-end/ · 3 módulos"></picture></summary>
+    <dl><dd><img src="./src/skills-frontend.svg" width="100%" alt="Front-end: HTML5, CSS3, JavaScript"></dd></dl>
+  </details>
+
+  <details>
+    <summary><picture><img src="./src/summary-backend.svg" width="96%" align="absmiddle" alt="back-end/ · 1 módulo"></picture></summary>
+    <dl><dd><img src="./src/skills-backend.svg" width="100%" alt="Back-end: Python"></dd></dl>
+  </details>
+
+  <details>
+    <summary><picture><img src="./src/summary-security.svg" width="96%" align="absmiddle" alt="security/ · 1 módulo"></picture></summary>
+    <dl><dd><img src="./src/skills-security.svg" width="100%" alt="Segurança: Cyber Security"></dd></dl>
+  </details>
+</details>
+
+<img src="./src/section-stats.svg" width="100%" alt="> ./stats --user humphreysjulio">
+
+<img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/stats.svg" width="100%" alt="Estatísticas do GitHub de Julio Humphreys: repositórios, estrelas, contribuições, sequência e linguagens">
+
+<img src="./src/section-activity.svg" width="100%" alt="> tail -f activity.log">
+
+<img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/snake.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições">
+
+<br>
+
+<div align="center">
+  <img src="./src/footer.svg" width="100%" alt="End of transmission">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=humphreysjulio&label=VISITORS&color=00C832&style=for-the-badge" alt="Visitantes do perfil">
 </div>
-
-##
-
-<div style="text-align: center;" align="center">
-    <h3>* GitHub Stats *</h3>
-    <br>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=humphreysjulio&show_icons=true&bg_color=000&title_color=FF00F6&text_color=FFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly" alt="Anurag's GitHub stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=humphreysjulio&layout=compact&bg_color=000&title_color=FF00F6&text_color=FFF&border_radius=3&border_color=36123c&icon_color=FF00F6&theme=jolly" alt="Top Langs">
-</div>
-
-
-
-##
-
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/github-contribution-grid-snake-dark.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/github-contribution-grid-snake.svg">
-</picture>
