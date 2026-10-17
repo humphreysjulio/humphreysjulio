@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="330" viewBox="0 0 830 330" role="img" aria-label="GitHub stats de humphreysjulio: 7 repositórios, 1 estrelas, 68 contribuições desde 2024, sequência atual de 0 dias, recorde de 3 dias.">
+<style>
+  text { font-family: 'Courier New', Consolas, monospace; white-space: pre; }
+  .path { fill: #00C832; font-size: 13px; }
+  .sync { fill: #007A1F; font-size: 11px; letter-spacing: 1px; text-anchor: end; }
+  .hdr { fill: #007A1F; font-size: 11px; letter-spacing: 2px; }
+  .k { fill: #00A82B; font-size: 14px; }
+  .lead { fill: #004D14; font-size: 14px; }
+  .v { fill: #E6FFE6; font-size: 14px; font-weight: bold; text-anchor: end; }
+  .big { fill: #00FF41; font-size: 40px; font-weight: bold; text-anchor: middle; filter: url(#glow); }
+  .cap { fill: #00C832; font-size: 11px; letter-spacing: 1px; text-anchor: middle; }
+  .sub { fill: #007A1F; font-size: 11px; text-anchor: middle; }
+  .ln { fill: #E6FFE6; font-size: 13px; }
+  .pct { fill: #00C832; font-size: 12px; text-anchor: end; }
+  .cur { animation: blink 1s steps(1) infinite; }
+  .ring { animation: spin 6s linear infinite; transform-origin: 415px 128px; }
+  .bar { transform-box: fill-box; transform-origin: bottom; animation: grow .6s ease-out both; }
+  @keyframes blink { 50% { opacity: 0; } }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes grow { from { transform: scaleY(0); } }
+</style>
+<defs>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="2" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect x=".5" y=".5" width="829" height="329" rx="10" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
+<path d="M1 38 H829" stroke="#00FF41" stroke-opacity=".25" stroke-dasharray="4 4"/>
+<circle cx="22" cy="20" r="5" fill="#00FF41" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
+<text x="80" y="24" class="path">~/stats --user humphreysjulio</text>
+<text x="810" y="24" class="sync">LAST SYNC 2026-10-17 02:44 UTC</text>
+<text x="26" y="62" class="hdr">PERFIL</text>
+<text x="26" y="88" class="k">repositórios</text><text x="135" y="88" class="lead">............</text><text x="300" y="88" class="v">7</text>
+<text x="26" y="112" class="k">estrelas</text><text x="102" y="112" class="lead">................</text><text x="300" y="112" class="v">1</text>
+<text x="26" y="136" class="k">seguidores</text><text x="118" y="136" class="lead">..............</text><text x="300" y="136" class="v">4</text>
+<text x="26" y="160" class="k">contribuições</text><text x="144" y="160" class="lead">...........</text><text x="300" y="160" class="v">68</text>
+<text x="26" y="184" class="k">pull requests</text><text x="144" y="184" class="lead">...........</text><text x="300" y="184" class="v">0</text>
+<text x="26" y="208" class="k">issues</text><text x="85" y="208" class="lead">..................</text><text x="300" y="208" class="v">0</text>
+<path d="M335 50 V220 M495 50 V220" stroke="#00FF41" stroke-opacity=".15"/><circle cx="415" cy="128" r="54" fill="none" stroke="#00FF41" stroke-opacity=".12" stroke-width="8"/><circle cx="415" cy="128" r="54" fill="none" stroke="#00FF41" stroke-width="8" stroke-linecap="round" stroke-dasharray="0.0 339.3" transform="rotate(-90 415 128)" filter="url(#glow)"/><g class="ring"><circle cx="415" cy="128" r="66" fill="none" stroke="#00FF41" stroke-opacity=".35" stroke-dasharray="3 9"/></g><text x="415" y="142" class="big">0</text><text x="415" y="214" class="cap">SEQUÊNCIA ATUAL</text><text x="415" y="230" class="sub">recorde: 3 dias</text>
+<text x="520" y="62" class="hdr">LINGUAGENS</text>
+<text x="520" y="88" class="ln">html</text>
+<rect x="620" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="1"/>
+<rect x="630" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="1"/>
+<rect x="640" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="1"/>
+<rect x="650" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="1"/>
+<rect x="660" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="1"/>
+<rect x="670" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="1"/>
+<rect x="680" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="690" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="700" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="710" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="720" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="730" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="740" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="750" y="77" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<text x="806" y="88" class="pct">42.5%</text>
+<text x="520" y="116" class="ln">css</text>
+<rect x="620" y="105" width="8" height="12" rx="1.5" fill="#00D836" opacity="1"/>
+<rect x="630" y="105" width="8" height="12" rx="1.5" fill="#00D836" opacity="1"/>
+<rect x="640" y="105" width="8" height="12" rx="1.5" fill="#00D836" opacity="1"/>
+<rect x="650" y="105" width="8" height="12" rx="1.5" fill="#00D836" opacity="1"/>
+<rect x="660" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="670" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="680" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="690" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="700" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="710" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="720" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="730" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="740" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="750" y="105" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<text x="806" y="116" class="pct">30.0%</text>
+<text x="520" y="144" class="ln">javascript</text>
+<rect x="620" y="133" width="8" height="12" rx="1.5" fill="#00B02B" opacity="1"/>
+<rect x="630" y="133" width="8" height="12" rx="1.5" fill="#00B02B" opacity="1"/>
+<rect x="640" y="133" width="8" height="12" rx="1.5" fill="#00B02B" opacity="1"/>
+<rect x="650" y="133" width="8" height="12" rx="1.5" fill="#00B02B" opacity="1"/>
+<rect x="660" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="670" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="680" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="690" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="700" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="710" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="720" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="730" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="740" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<rect x="750" y="133" width="8" height="12" rx="1.5" fill="#00FF41" opacity="0.1"/>
+<text x="806" y="144" class="pct">27.5%</text>
+<path d="M20 238 H810" stroke="#00FF41" stroke-opacity=".15"/><text x="26" y="258" class="hdr">ATIVIDADE MENSAL · DESDE 2024</text><text x="806" y="258" class="sync">68 CONTRIBUIÇÕES</text>
+<rect class="bar" style="animation-delay:0.00s" x="30.0" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.03s" x="51.4" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.06s" x="72.8" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.09s" x="94.2" y="304.3" width="18.38888888888889" height="7.7" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.12s" x="115.6" y="305.5" width="18.38888888888889" height="6.5" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.15s" x="136.9" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.18s" x="158.3" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.21s" x="179.7" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.24s" x="201.1" y="293.9" width="18.38888888888889" height="18.1" rx="2" fill="#00A82B"/>
+<rect class="bar" style="animation-delay:0.27s" x="222.5" y="272.0" width="18.38888888888889" height="40.0" rx="2" fill="#00FF41"/>
+<rect class="bar" style="animation-delay:0.30s" x="243.9" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.33s" x="265.3" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.36s" x="286.7" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.39s" x="308.1" y="309.4" width="18.38888888888889" height="2.6" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.42s" x="329.4" y="309.4" width="18.38888888888889" height="2.6" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.45s" x="350.8" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.48s" x="372.2" y="306.8" width="18.38888888888889" height="5.2" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:0.51s" x="393.6" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.54s" x="415.0" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.57s" x="436.4" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.60s" x="457.8" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.63s" x="479.2" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.66s" x="500.6" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.69s" x="521.9" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.72s" x="543.3" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.75s" x="564.7" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.78s" x="586.1" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.81s" x="607.5" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.84s" x="628.9" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.87s" x="650.3" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.90s" x="671.7" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.93s" x="693.1" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.96s" x="714.4" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:0.99s" x="735.8" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#006B1A"/>
+<rect class="bar" style="animation-delay:1.02s" x="757.2" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+<rect class="bar" style="animation-delay:1.05s" x="778.6" y="310.0" width="18.38888888888889" height="2.0" rx="2" fill="#0F2A12"/>
+</svg>
