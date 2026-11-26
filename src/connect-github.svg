@@ -3,7 +3,7 @@
   text { font-family: 'Courier New', Consolas, monospace; white-space: pre; }
   .n { fill: #E6FFE6; font-size: 17px; font-weight: bold; }
   .h { fill: #00A82B; font-size: 11px; }
-  .port { fill: #007A1F; font-size: 10px; letter-spacing: 1px; text-anchor: end; }
+  .port { fill: #FF1A3C; font-size: 10px; letter-spacing: 1px; text-anchor: end; }
   .k { fill: #00FF41; font-size: 10px; font-weight: bold; letter-spacing: 2px; text-anchor: middle; }
   .frame { animation: f 3s ease-in-out 1.0s infinite; }
   .chip { animation: c 2s ease-in-out 1.0s infinite; }

@@ -1,6 +1,9 @@
 """Generate the Matrix-styled GitHub stats card (stats.svg).
 
-usage: python stats.py <github_user> <output.svg>
+usage: python stats.py <github_user> <output.svg> [snake.svg]
+
+When a snk snake SVG is given it is inlined at the bottom of the card, so the
+stats and the contribution snake live in a single panel.
 
 Uses the GraphQL API when GITHUB_TOKEN is set (GitHub Actions) and falls back
 to public endpoints otherwise, so it also runs locally without credentials.
@@ -109,8 +112,26 @@ def streaks(days):
     return current, longest
 
 
-def render(user, s):
+def snake_parts(path):
+    """Return (viewBox, inner markup, width, height) of a snk SVG, or None."""
+    if not path or not pathlib.Path(path).exists():
+        return None
+    snake = pathlib.Path(path).read_text(encoding="utf-8")
+    vb = re.search(r'viewBox="([^"]+)"', snake).group(1)
+    vw, vh = (float(v) for v in vb.split()[2:])
+    inner = re.search(r"<svg[^>]*>(.*)</svg>", snake, flags=re.S).group(1)
+    inner = re.sub(r"<desc>.*?</desc>", "", inner, flags=re.S)
+    return vb, inner, vw, vh
+
+
+def render(user, s, snake=None):
     W, H = 830, 330
+    SNK_TOP = 364
+    if snake:
+        vb, inner, vw, vh = snake
+        sw = W - 40
+        sh = sw * vh / vw
+        H = round(SNK_TOP + sh + 44)
     cur, best = streaks(s["days"])
     synced = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     total_bytes = sum(s["langs"].values()) or 1
@@ -134,6 +155,9 @@ def render(user, s):
   .cur {{ animation: blink 1s steps(1) infinite; }}
   .ring {{ animation: spin 6s linear infinite; transform-origin: 415px 128px; }}
   .bar {{ transform-box: fill-box; transform-origin: bottom; animation: grow .6s ease-out both; }}
+  .live {{ fill: #FF1A3C; font-size: 11px; font-weight: bold; letter-spacing: 2px; text-anchor: end; }}
+  .rec {{ animation: recb 1.2s steps(1) infinite; }}
+  @keyframes recb {{ 50% {{ opacity: .2; }} }}
   @keyframes blink {{ 50% {{ opacity: 0; }} }}
   @keyframes spin {{ to {{ transform: rotate(360deg); }} }}
   @keyframes grow {{ from {{ transform: scaleY(0); }} }}
@@ -146,7 +170,7 @@ def render(user, s):
 </defs>
 <rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="10" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
 <path d="M1 38 H{W-1}" stroke="#00FF41" stroke-opacity=".25" stroke-dasharray="4 4"/>
-<circle cx="22" cy="20" r="5" fill="#00FF41" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
+<circle cx="22" cy="20" r="5" fill="#FF1A3C" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
 <text x="80" y="24" class="path">~/stats --user {html.escape(user)}</text>
 <text x="{W-20}" y="24" class="sync">LAST SYNC {synced}</text>"""]
 
@@ -210,12 +234,25 @@ def render(user, s):
         color = ["#0F2A12", "#006B1A", "#00A82B", "#00D836", "#00FF41"][lvl]
         o.append(f'<rect class="bar" style="animation-delay:{i * 0.03:.2f}s" x="{x0 + i * (bw + 3):.1f}" y="{base - h:.1f}" '
                  f'width="{bw}" height="{h:.1f}" rx="2" fill="{color}"/>')
+    if snake:
+        fy = H - 18
+        legend = ["#0F2A12", "#003b00", "#006b1a", "#00a82b", "#00ff41"]
+        o.append(f'<path d="M20 330 H{W-20}" stroke="#00FF41" stroke-opacity=".15"/>'
+                 f'<text x="26" y="352" class="hdr">TAIL -F ACTIVITY.LOG · ÚLTIMO ANO</text>'
+                 f'<circle class="rec" cx="{W-66}" cy="348" r="4" fill="#FF1A3C"/>'
+                 f'<text x="{W-24}" y="352" class="live">LIVE</text>'
+                 f'<svg x="20" y="{SNK_TOP}" width="{sw}" height="{sh:.1f}" viewBox="{vb}">{inner}</svg>'
+                 f'<text x="{W-158}" y="{fy}" class="hdr" text-anchor="end">menos</text>'
+                 + "".join(f'<rect x="{W - 150 + i * 16}" y="{fy - 10}" width="12" height="12" rx="2" fill="{c}"/>'
+                           for i, c in enumerate(legend))
+                 + f'<text x="{W-64}" y="{fy}" class="hdr">mais</text>')
     o.append('</svg>')
     return "\n".join(o) + "\n"
 
 
 def main():
     user, out = sys.argv[1], pathlib.Path(sys.argv[2])
+    snake = snake_parts(sys.argv[3] if len(sys.argv) > 3 else None)
     data = None
     if TOKEN:
         try:
@@ -224,7 +261,7 @@ def main():
             print(f"graphql failed, using public endpoints: {e}", file=sys.stderr)
     data = data or collect_public(user)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(render(user, data), encoding="utf-8")
+    out.write_text(render(user, data, snake), encoding="utf-8")
     print(f"wrote {out}: repos={data['repos']} stars={data['stars']} total={data['total']} streak={streaks(data['days'])}")
 
 

@@ -11,6 +11,7 @@
   .arrow { animation: nudge 1.4s ease-in-out infinite; }
   .scan { animation: scan 3.5s linear infinite; }
   @keyframes hop { 0% { transform: translateX(0px); } 20% { transform: translateX(114px); } 40% { transform: translateX(228px); } 60% { transform: translateX(342px); } 80% { transform: translateX(456px); } }
+  .rdot { fill: #FF1A3C; animation: blink 1s steps(1) infinite; }
   @keyframes blink { 50% { opacity: 0; } }
   @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(5px); } }
   @keyframes scan { from { transform: translateY(-40px); } to { transform: translateY(196px); } }
@@ -32,7 +33,7 @@
 </defs>
 <rect x=".5" y=".5" width="799" height="195" rx="10" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
 <path d="M1 38 H799" stroke="#00FF41" stroke-opacity=".25" stroke-dasharray="4 4"/>
-<circle cx="22" cy="20" r="5" fill="#00FF41" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
+<circle cx="22" cy="20" r="5" fill="#FF1A3C" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
 <text x="80" y="24" class="path">~/stack/inventory</text>
 <text x="780" y="24" class="cnt">5 MÓDULOS · 3 CATEGORIAS</text>
 <g class="hop"><rect x="126" y="46" width="92" height="92" rx="14" fill="url(#hl)"/><rect x="130" y="50" width="84" height="84" rx="12" fill="none" stroke="#00FF41" stroke-width="1.5"/></g>
@@ -45,5 +46,5 @@
 <g class="arrow"><path d="M24 163 l8 6 -8 6z" fill="#00FF41"/></g>
 <text x="42" y="174" class="cta">CLIQUE PARA ABRIR O INVENTÁRIO</text>
 <rect class="cur" x="330" y="162" width="8" height="14" fill="#00FF41"/>
-<text x="780" y="174" class="ready">SYS.READY ●</text>
+<text x="780" y="174" class="ready">SYS.READY <tspan class="rdot">●</tspan></text>
 <g clip-path="url(#c)"><rect class="scan" width="800" height="40" fill="url(#sg)"/></g></svg>

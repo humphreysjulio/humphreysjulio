@@ -1,12 +1,10 @@
 <div align="center">
-  <img src="./src/matrix-header.svg" width="100%" alt="Julio Humphreys — Sistemas de Informação">
+  <img src="./src/matrix-header.svg" width="100%" alt="SYSTEM HACKED — intrusion detected, root access granted">
 </div>
-
-<img src="./src/boot.svg" width="100%" alt="Boot sequence — Access granted. Welcome to my profile!">
 
 <br>
 
-<img src="./src/terminal.svg" width="100%" alt="neofetch — Julio Humphreys. Cargo: Cyber Security. Local: Itaquera. Status: aberto a oportunidades. Curso: Sistemas de Informação na Faculdade Impacta Tecnologia (2023 — 2026). Stack: HTML, CSS, JavaScript, Python. Contato: github.com/humphreysjulio, linkedin.com/in/humphreysjulio, juliochreis@gmail.com. Si vis pacem, para bellum.">
+<img src="./src/terminal.svg" width="100%" alt="neofetch — Julio &quot;GHOST&quot; Humphreys. Location: Itaquera, SP, Brasil. Status: I will fear no evil — Psalm 23:4 (orthodox cross). Degree: Bacharelado em Sistemas de Informação at Faculdade Impacta Tecnologia (2023 — 2026). Focus: Cybersecurity, Programming. Si vis pacem, para bellum.">
 
 <img src="./src/section-connect.svg" width="100%" alt="> ./connect.sh">
 
@@ -45,11 +43,7 @@
 
 <img src="./src/section-stats.svg" width="100%" alt="> ./stats --user humphreysjulio">
 
-<img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/stats.svg" width="100%" alt="Estatísticas do GitHub de Julio Humphreys: repositórios, estrelas, contribuições, sequência e linguagens">
-
-<img src="./src/section-activity.svg" width="100%" alt="> tail -f activity.log">
-
-<img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/snake.svg" width="100%" alt="Cobrinha comendo o gráfico de contribuições">
+<img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/stats.svg" width="100%" alt="Estatísticas do GitHub de Julio Humphreys: repositórios, estrelas, contribuições, sequência, linguagens e a cobrinha comendo o gráfico de contribuições">
 
 <br>
 

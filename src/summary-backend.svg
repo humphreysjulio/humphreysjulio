@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="38" viewBox="0 0 800 38" role="img" aria-label="back-end/ — 1 módulo">
 <style>
   text { font-family: 'Courier New', Consolas, monospace; white-space: pre; }
-  .t { font-size: 15px; fill: #007A1F; }
+  .t { font-size: 15px; fill: #B3122E; }
   .n { font-size: 15px; font-weight: bold; fill: #00FF41; filter: url(#glow); }
   .i { font-size: 12px; fill: #00A82B; }
   .k { font-size: 11px; font-weight: bold; fill: #00FF41; letter-spacing: 2px; text-anchor: middle; }

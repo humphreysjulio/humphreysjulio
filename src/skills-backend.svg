@@ -2,7 +2,7 @@
 <style>
   text { font-family: 'Courier New', Consolas, monospace; white-space: pre; }
   .path { fill: #00C832; font-size: 13px; }
-  .cnt { fill: #007A1F; font-size: 12px; letter-spacing: 1px; text-anchor: end; }
+  .cnt { fill: #FF1A3C; font-size: 12px; letter-spacing: 1px; text-anchor: end; }
   .name { fill: #E6FFE6; font-size: 17px; font-weight: bold; }
   .desc { fill: #00A82B; font-size: 12px; }
   .st { fill: #00FF41; font-size: 11px; font-weight: bold; letter-spacing: 1px; }
@@ -31,7 +31,7 @@
 </defs>
 <rect x=".5" y=".5" width="829" height="181" rx="10" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
 <path d="M1 40 H829" stroke="#00FF41" stroke-opacity=".25" stroke-dasharray="4 4"/>
-<circle cx="22" cy="21" r="5" fill="#00FF41" opacity=".9"/><circle cx="40" cy="21" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="21" r="5" fill="#00FF41" opacity=".2"/>
+<circle cx="22" cy="21" r="5" fill="#FF1A3C" opacity=".9"/><circle cx="40" cy="21" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="21" r="5" fill="#00FF41" opacity=".2"/>
 <text x="80" y="25" class="path">~/skills/back-end</text>
 <rect class="cur" x="217.4" y="13" width="7" height="14" fill="#00FF41"/>
 <text x="810" y="25" class="cnt">[1 MOD LOADED]</text>

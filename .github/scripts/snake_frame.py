@@ -50,9 +50,9 @@ def main():
 </defs>
 <rect x=".5" y=".5" width="{W - 1}" height="{H - 1}" rx="10" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
 <path d="M1 {BAR} H{W - 1}" stroke="#00FF41" stroke-opacity=".25" stroke-dasharray="4 4"/>
-<circle cx="22" cy="20" r="5" fill="#00FF41" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
+<circle cx="22" cy="20" r="5" fill="#FF1A3C" opacity=".9"/><circle cx="40" cy="20" r="5" fill="#00FF41" opacity=".5"/><circle cx="58" cy="20" r="5" fill="#00FF41" opacity=".2"/>
 <text x="80" y="24" class="mx-t mx-path">~/activity.log — tail -f</text>
-<circle class="mx-rec" cx="{W - 62}" cy="20" r="4" fill="#00FF41"/>
+<circle class="mx-rec" cx="{W - 62}" cy="20" r="4" fill="#FF1A3C"/>
 <text x="{W - 20}" y="24" class="mx-t mx-live">LIVE</text>
 <svg x="{PAD}" y="{BAR + 14}" width="{sw}" height="{sh:.1f}" viewBox="{vb}">{inner}</svg>
 <path d="M{PAD} {fy - 20} H{W - PAD}" stroke="#00FF41" stroke-opacity=".15"/>

@@ -3,12 +3,12 @@
   text { font-family: 'Courier New', Consolas, monospace; font-size: 15px; white-space: pre; }
   .name { fill: #E6FFE6; font-weight: bold; }
   .dim { fill: #007A1F; }
-  .q { fill: #00FF41; font-weight: bold; font-size: 18px; }
+  .q { fill: #FF1A3C; font-weight: bold; font-size: 18px; }
   .hdr { fill: #007A1F; font-size: 12px; letter-spacing: 2px; }
   .wait { fill: #007A1F; }
   .loading { fill: #00C832; }
   .ok { fill: #00FF41; font-weight: bold; }
-  .scan { fill: #00C832; animation: blink 1s steps(1) infinite; }
+  .scan { fill: #FF1A3C; animation: blink 1s steps(1) infinite; }
   @keyframes blink { 50% { opacity: 0; } }
 </style>
 <rect x=".5" y=".5" width="829" height="267" rx="10" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
