@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="28" viewBox="0 0 300 28" role="img" aria-label="root@ghost:~$ whoami → visitante">
+<style>
+  text { font-family: 'Courier New', Consolas, monospace; font-size: 12px; white-space: pre; }
+  .p { fill: #00FF41; font-weight: bold; }
+  .c { fill: #E6FFE6; }
+  .a { fill: #00C832; }
+  .v { fill: #00FF41; font-weight: bold; letter-spacing: 1px; }
+  .dot { animation: blink 1.2s steps(1) infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+<rect x=".5" y=".5" width="306" height="27" rx="4" fill="#050805" stroke="#00FF41" stroke-opacity=".6"/>
+<circle class="dot" cx="13" cy="14" r="3.5" fill="#FF1A3C"/>
+<text x="24" y="18"><tspan class="p">root@ghost:~$</tspan><tspan class="c"> whoami</tspan><tspan class="a">  →  </tspan><tspan class="v">VISITANTE</tspan></text>
+</svg>

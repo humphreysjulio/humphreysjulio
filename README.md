@@ -23,10 +23,6 @@
 
 <p><img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/stats.svg" width="100%" alt="Estatísticas do GitHub de Julio Humphreys: repositórios, estrelas, contribuições, sequência, linguagens e a cobrinha comendo o gráfico de contribuições"></p>
 
-<br>
+<p><img src="./src/footer.svg" width="100%" alt="До свидания"></p>
 
-<div align="center">
-  <img src="./src/footer.svg" width="100%" alt="До свидания">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=humphreysjulio&label=VISITORS&color=00C832&style=for-the-badge" alt="Visitantes do perfil">
-</div>
+<p align="center"><img src="./src/visitors.svg" height="28" alt="root@ghost:~$ whoami → visitante"><img src="https://komarev.com/ghpvc/?username=humphreysjulio&label=%23&color=0F2A12&style=for-the-badge" height="28" alt="Visitantes do perfil"></p>
