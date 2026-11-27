@@ -13,7 +13,7 @@
     <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
   </filter></defs>
 <rect x=".5" y=".5" width="799" height="37" rx="7" fill="#050805" stroke="#00FF41" stroke-opacity=".3"/>
-<text x="16" y="24" class="t">├── </text>
+<text x="16" y="24" class="t">└── </text>
 <text x="52.0" y="24" class="n">back-end/</text>
 <text x="149.0" y="23" class="i">1 módulo</text>
 <path d="M224.2 19 H680.0" stroke="#00FF41" stroke-opacity=".22" stroke-dasharray="2 5"/>
