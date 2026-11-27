@@ -13,18 +13,10 @@
 <p><img src="./src/section-stack.svg" width="100%" alt="> ls ./stack"></p>
 
 <details>
-  <summary><picture><img src="./src/summary-stack.svg" width="97.9%" align="absmiddle" alt="Stack: HTML5, CSS3, JavaScript, Python — clique para abrir o inventário"></picture></summary>
+  <summary><picture><img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/languages.svg" width="97.9%" align="absmiddle" alt="Arsenal: ferramentas por categoria e uso real de linguagens no GitHub — clique para abrir o arsenal"></picture></summary>
   <br>
 
-  <details>
-    <summary><picture><img src="./src/summary-frontend.svg" width="96%" align="absmiddle" alt="front-end/ · 3 módulos"></picture></summary>
-    <dl><dd><img src="./src/skills-frontend.svg" width="100%" alt="Front-end: HTML5, CSS3, JavaScript"></dd></dl>
-  </details>
-
-  <details>
-    <summary><picture><img src="./src/summary-backend.svg" width="96%" align="absmiddle" alt="back-end/ · 1 módulo"></picture></summary>
-    <dl><dd><img src="./src/skills-backend.svg" width="100%" alt="Back-end: Python"></dd></dl>
-  </details>
+  <p><img src="https://raw.githubusercontent.com/humphreysjulio/humphreysjulio/output/skills.svg" width="100%" alt="~/arsenal — front-end: html5, css3, javascript, react; back-end: python, node.js, kotlin; banco de dados: mysql, mongodb"></p>
 </details>
 
 <p><img src="./src/section-stats.svg" width="100%" alt="> ./stats --user humphreysjulio"></p>

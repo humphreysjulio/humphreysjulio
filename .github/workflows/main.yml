@@ -43,6 +43,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # generates the stack arsenal card (summary) at dist/languages.svg and the arsenal window at dist/skills.svg,
+      # both from .github/scripts/arsenal.json
+      - name: generate skills.svg
+        run: python repo/.github/scripts/skills.py dist/skills.svg
+
+      - name: generate languages.svg
+        run: python repo/.github/scripts/languages.py ${{ github.repository_owner }} dist/languages.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       # wraps the matrix snake in the profile's terminal window at dist/snake.svg
       - name: frame snake.svg
         run: python repo/.github/scripts/snake_frame.py dist/github-contribution-grid-snake-matrix.svg dist/snake.svg
